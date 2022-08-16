@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+*{
+  font-family: 'Tiro Gurmukhi', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: #fff;
+}
+.navbar-brand{
+  color: #565387;
+  font-size: 1.9rem;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover{
+  color: #3498db;
+}
+ 
 .App {
   text-align: center;
 }
-
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
